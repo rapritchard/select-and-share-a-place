@@ -21,11 +21,15 @@
   },
   "homepage": "https://github.com/rapritchard/select-and-share-a-place#readme",
   "devDependencies": {
+    "@types/googlemaps": "^3.43.3",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "ts-loader": "^9.1.2",
     "typescript": "^4.2.4",
     "webpack": "^5.37.0",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
